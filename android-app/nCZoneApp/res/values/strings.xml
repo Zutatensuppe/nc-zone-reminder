@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">nC Zone Reminder</string>
+    <string name="service_name">nC Zone Reminder</string>
+    
+    <string name="_placeholder">&#8230;</string>
+    <string name="_main_title">nC Zone Reminder</string>
+    <string name="_main_onoff">An/Aus</string>
+    <string name="_main_on">An</string>
+    <string name="_main_off">Aus</string>
+    <string name="_main_settings">Einstellungen</string>
+    
+    
+    
+    <string name="_settings_title">Einstellungen</string>
+    <string name="_settings_sound">Sound</string>
+    <string name="_settings_file">Datei</string>
+    <string name="_settings_volume">Lautstärke</string>
+    <string name="_settings_recieve_broadcast">Mitteilungen erhalten</string>
+    <string name="_settings_nickname">Nickname</string>
+	<string name="_settings_vibrate">Vibrieren</string>
+	<string name="_settings_play_sound">Sound abspielen</string>
+	<string name="_settings_test">Test</string>
+	<string name="_settings_alarm">Alarm</string>
+    <string name="_settings_discard">Abbrechen</string>
+    <string name="_settings_save">Speichern</string>
+    
+        
+	<string name="soundSelector_prompt">Sound auswählen</string>
+    <string-array name="sounds_array">
+        <item>default</item>
+        <item>7 Ah!</item>
+        <item>14 Fang endlich an!</item>
+    </string-array>
+    
+	<string name="_main_nickname">Nickname</string>
+</resources>
+
+
+
