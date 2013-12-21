@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+<LinearLayout
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center_horizontal"
+    android:orientation="vertical" >
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dip"
+        android:text="@string/_settings_title"
+        android:textSize="30sp" />
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:background="?android:attr/listDivider" />
+
+    <TableLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dip"
+        android:stretchColumns="1" >
+
+        <TableRow android:gravity="center_vertical">
+
+            <TextView
+                android:layout_column="1"
+                android:gravity="left"
+                android:padding="3dip"
+                android:text="@string/_settings_nickname"
+                android:textSize="20sp" />
+
+            <EditText
+                android:id="@+id/editText1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:inputType="text"
+                android:width="200dip" >
+
+                <requestFocus />
+            </EditText>
+        </TableRow>
+    </TableLayout>
+
+    <TableLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dip"
+        android:stretchColumns="1" >
+
+        <TableRow android:gravity="center_vertical" >
+
+            <TextView
+                android:layout_column="1"
+                android:gravity="left"
+                android:padding="3dip"
+                android:text="@string/_settings_vibrate"
+                android:textSize="20sp" />
+
+            <CheckBox
+                android:id="@+id/vibrate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </TableRow>
+
+        <TableRow android:gravity="center_vertical" >
+
+            <TextView
+                android:layout_column="1"
+                android:gravity="left"
+                android:padding="3dip"
+                android:text="@string/_settings_play_sound"
+                android:textSize="20sp" />
+
+            <CheckBox
+                android:id="@+id/playSounds"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </TableRow>
+    </TableLayout>
+
+    <TableLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dip"
+        android:stretchColumns="1" >
+
+        <TableRow android:gravity="center_vertical" >
+
+            <TextView
+                android:layout_column="1"
+                android:gravity="left"
+                android:padding="3dip"
+                android:text="@string/_settings_sound"
+                android:textSize="20sp" />
+
+            <Spinner
+                android:id="@+id/soundSelector"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:prompt="@string/soundSelector_prompt" />
+        </TableRow>
+    </TableLayout>
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:background="?android:attr/listDivider" />
+
+    <TableLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dip"
+        android:stretchColumns="1" >
+
+        <TableRow android:gravity="center_vertical" >
+
+            <TextView
+                android:layout_column="1"
+                android:gravity="left"
+                android:padding="3dip"
+                android:text="@string/_settings_test"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/btnTestAlarm"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="10dip"
+                android:text="@string/_settings_alarm" />
+        </TableRow>
+    </TableLayout>
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:background="?android:attr/listDivider" />
+
+    <TableLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dip"
+        android:stretchColumns="1" >
+
+        <TableRow android:gravity="center_vertical" >
+
+	        <Button
+	            android:id="@+id/btnCancel"
+	            android:text="@string/_settings_discard"
+	            android:width="150dip" />
+	
+	        <Button
+	            android:id="@+id/btnSave"
+	            android:text="@string/_settings_save"
+	            android:width="150dip" />
+	        
+        </TableRow>
+        
+    </TableLayout>
+
+</LinearLayout>
+</ScrollView>
