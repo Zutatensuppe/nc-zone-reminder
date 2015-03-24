@@ -1,0 +1,1 @@
+Reminder fuer die nC Zone. Schickt Notifications an die Spieler die zwar eingeloggt sind, aber nicht staendig in die Zone schauen wollen.
